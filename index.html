@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Portfolio Website</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!-- Header for website -->
+    <header id="home">
+        <h1 id="title">Garrett Pierce Portfolio</h1>
+
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <a href="#home">Home</a>
+                <a href="#about-me">About Me</a>
+                <a href="#personal-projects">Personal Projects</a>
+                <a href="#resume">My Resume</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- Main Content for the page-->
+    <main>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        My name is Robert Garrett Pierce. I am a rising senior at the 
+                        University of Georgia and in the Morehead Honors College majoring in Computer Science with an emphasis on 
+                        applied data science. I am deeply passionate about the tech industry and
+                        specifically the intersection of data analytics and software development.
+                        I have created multiple projects relating to this intersection,
+                        such as a stock market analyzer and a TV Show recommender. Besides Computer Science
+                        I have a keen interest in applied mathematics and have developed side projects analyzing
+                        probability occurences in various fields, particuarly finance and political races. I 
+                        have also throughly enjoyed working on the frontend as well. I have created multiple websites
+                        using primarly Next.js and Tailwind CSS.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="/images/professionalImage.jfif" alt="Picture of Me, Robert Garrett Pierce" id="profile-photo">
+                </div>
+            </div>
+        </section>
+
+        <section id="personal-projects">
+            <h2>Personal Projects</h2>
+            
+            <div class="personal-projects-ds">
+                <h3>Applied Data Science Projects</h3>
+                <ul class="project-list">
+                    <li>Stock Market Analyzer</li>
+                    <li>TV Show Recommender</li>
+                    <li>Predicting Heart Disease Using Decision Trees</li>
+                </ul>
+            </div>
+
+            <div class="personal-projects-prob">
+                <h3>Probability Projects</h3>
+                <ul class="project-list">
+                    <li>General Form of Monty-Hall Problem with Python</li>
+                    <li>Blackjack Odds Using Monte Carlo Simulations</li>
+                    <li>Predicting Midterm Elections given Polling Data</li>
+                </ul>
+            </div>
+
+            <div class="personal-projects-frontend">
+                <h3>Front-End Projects</h3>
+                <ul class="project-list">
+                    <li>HVAC Company Website Using React and Tailwind CSS</li>
+                    <li>Free Piano Pieces Website With Next.js and Tailwind CSS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>My Resume</h2>
+            <p>
+                Attached below is my resume detailing my skillset and experience
+                in detail.
+            </p>
+            <a href="#blank">Go to my resume</a>
+        </section>
+
+        <section id="contact">
+            <h2>My Contact Info</h2>
+            <address>
+                Email: <a href="mailto:support@example.com">support@example.com</a><br>
+                Phone: <a href="tel:+17777777777">+1 (777)-777-7777</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">My LinkedIn</a><br>
+                GitHub: <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">My GitHub</a><br>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="footer-branding">
+            <p>Building software in the most analytical and inquisitive way.</p>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2026 Robert Garrett Pierce</p>
+        </div>
+    </footer>
+</body>
+</html>

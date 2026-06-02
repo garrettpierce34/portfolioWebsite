@@ -1,0 +1,72 @@
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #F6F8FA;
+}
+
+#home {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#title {
+    font-size: 45px;
+    padding: 10px 0px 10px 0px;
+}
+
+nav {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    border: 2.5px solid grey;
+    ul {
+        list-style: none;
+    }
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+#about-me {
+    background-color: #151b15;
+    padding: 15px 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.about-text {
+    color: #cbd5e1;
+    font-size: 30px
+}
+
+#profile-photo {
+    border-radius: 50%;
+}
+
+
+
+
