@@ -48,7 +48,7 @@ a:hover {
 }
 
 #about-me {
-    background-color: #151b15;
+    background-color: #152238;
     padding: 15px 30px;
 }
 
@@ -63,8 +63,19 @@ a:hover {
     font-size: 30px
 }
 
+.about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 #profile-photo {
     border-radius: 50%;
+}
+
+#college-photo {
+    width: 75%;
 }
 
 
