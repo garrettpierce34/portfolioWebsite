@@ -29,7 +29,7 @@ h2 {
 }
 
 nav {
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px;
     padding: 10px 0px;
     border: 2.5px solid grey;
     ul {
@@ -47,9 +47,12 @@ a:hover {
     border-bottom: 2px solid white;
 }
 
+section {
+    padding: 15px 30px;
+}
+
 #about-me {
     background-color: #152238;
-    padding: 15px 30px;
 }
 
 .about-content {
@@ -76,8 +79,39 @@ a:hover {
 
 #college-photo {
     width: 75%;
+    border-radius: 10%;
 }
 
+#personal-projects {
+    background-color: #1E293B;
+}
+
+.personal-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    color: white;
+}
+
+.personal-projects-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #152238;
+    border: grey solid 5px;
+    border-radius: 12px;
+    padding: 25px;
+    gap: 25px;
+    font-size:25px;
+}
+
+.project-list {
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 
