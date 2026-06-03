@@ -4,11 +4,15 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: white;
+}
+
+a:hover {
+    border-bottom: 2px solid cyan;
 }
 
 h2 {
@@ -19,7 +23,6 @@ h2 {
 
 #home {
     text-align: center;
-    color: white;
     background-color: black;
 }
 
@@ -43,9 +46,6 @@ nav {
     font-size: 25px;
 }
 
-a:hover {
-    border-bottom: 2px solid white;
-}
 
 section {
     padding: 15px 30px;
@@ -62,8 +62,8 @@ section {
 }
 
 .about-text {
-    color: #cbd5e1;
-    font-size: 30px
+    font-size: 25px;
+    line-height: 2;
 }
 
 .about-image {
@@ -92,7 +92,6 @@ section {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    color: white;
 }
 
 .personal-projects-box {
@@ -101,7 +100,7 @@ section {
     background-color: #152238;
     border: grey solid 5px;
     border-radius: 12px;
-    padding: 25px;
+    padding: 25px 35px;
     gap: 25px;
     font-size:25px;
 }
@@ -113,5 +112,36 @@ section {
     gap: 20px;
 }
 
+#resume {
+    background-color: #152238;
+    
+}
 
+.resume-text {
+    font-size: 25px;
+    line-height: 2;
+}
 
+#contact {
+    background-color: #1E293B;
+}
+
+address {
+    font-size: 25px;
+    line-height: 2;
+}
+
+footer {
+    background-color: black;
+    padding: 15px 30px;
+    border: 2.5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    font-size: 17.5px;
+}
+
+.footer-branding {
+    font-style: italic;
+    font-weight: bold;
+}
